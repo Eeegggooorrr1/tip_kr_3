@@ -1,0 +1,12 @@
+:root{
+  --bg:#0b0f14;
+  --panel:#0f161b;
+  --muted:#9aa6b2;
+  --accent:#6ee7b7;
+}
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{margin:0;background:var(--bg);color:#e6eef3;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+.app{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:40px}
+.container{width:100%;max-width:1000px;display:flex;gap:24px}
+@media (max-width:880px){.container{flex-direction:column;padding:16px}}

@@ -1,0 +1,5 @@
+.popular{width:320px;min-width:240px}
+.cards{display:flex;flex-direction:column;gap:12px;margin-top:12px}
+.card{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px;display:flex;justify-content:space-between;align-items:center;border:1px solid rgba(255,255,255,0.02)}
+.pair{font-weight:600}
+.val{color:var(--accent);font-weight:700}
